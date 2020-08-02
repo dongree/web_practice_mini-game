@@ -26,6 +26,7 @@ li {
 .bar ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo img {
@@ -34,14 +35,29 @@ li {
   padding-top: 50px;
 }
 
+.b-box {
+  background-color: #0984e3;
+  padding: 5px 8px;
+}
+
+.y-box {
+  background-color: #ffeaa7;
+  padding: 5px 8px;
+}
+
+.p-box {
+  background-color: #fd79a8;
+  padding: 5px 8px;
+}
+
 img {
   width: 30px;
   height: 30px;
 }
 
 .main-data {
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 35%;
+  padding-right: 35%;
 }
 
 .main li {
@@ -50,6 +66,7 @@ img {
   background-color: white;
   border-radius: 5px;
   padding-left: 15px;
+  align-items: center;
 }
 
 .main li img {
