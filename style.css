@@ -73,3 +73,25 @@ img {
   background-color: white;
   padding-right: 10px;
 }
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.b-box:hover {
+  box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.y-box:hover {
+  box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.p-box:hover {
+  box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+button img:hover {
+  box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.5) inset;
+}
